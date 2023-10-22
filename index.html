@@ -15,6 +15,10 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=zodiak@400&f[]=chillax@400&f[]=stardom@400&f[]=boska@400&f[]=fira-sans@900&f[]=poppins@1&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
@@ -25,7 +29,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand ps-5 ms-5" href="#">Zimoné H</a>
+        <a class="navbar-brand" href="#">Zimoné</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -54,85 +58,73 @@
         </div>
       </div>
     </nav>
-    <h2>👋 Hi I am</h2>
-    <h1>Zimoné H</h1>
-    <h3>🇿🇦 Front-end developer, based in East-London ZA</h3>
-    <div class="navigation-links">
-      <a href="about.html#contact" class="contact-link">Contact me</a>
-      <a href="about.html" class="about-link">About me</a>
-    </div>
-    <div class="container mt-5">
+    <div id="frontPage" class="container-fluid mb-0">
       <div class="row">
-        <div class="col-md-6">
-          <img id="y-img" src="images/yoga.png" class="img-fluid rounded" />
-        </div>
-        <div class="col-md-6">
-          <h2 class="yoga mt-3">Yoga App</h2>
-          <p class="yogaP">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a
-              id="yoga-link"
-              href="#"
-              class="primary-link py-3 px-4 shadow border"
-              >Launch Yoga App</a
-            >
+        <div class="col-sm-6">
+          <div id="portrait-text" class="container">
+            <h2>Hi I am</h2>
+            <h1>Zimoné</h1>
+            <h3>Front-end developer, based in East-London ZA</h3>
+            <div class="navigation-links">
+              <a href="about.html#contact" class="contact-link">Get in Touch</a>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <br />
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-6">
-          <h2 class="weather mt-3">Weather App</h2>
-          <p class="weatherP">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a
-              id="weather-link"
-              href="#"
-              class="primary-link py-3 px-4 shadow border"
-              >Launch Weather App</a
-            >
-          </div>
-        </div>
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <img
-            id="w-img"
-            src="images/weather.png"
-            class="img-fluid rounded mt-3"
+            class="portrait img-fluid mt-5"
+            src="Images/Untitled Project.png"
           />
         </div>
       </div>
     </div>
-    <br />
-    <div class="container mt-5">
+    <video autoplay muted loop id="about-vid">
+      <source
+        src="Images/mylivewallpapers-com-Cherry-Blossom-Lake.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <div id="about-container" class="container-fluid">
       <div class="row">
-        <div class="col-md-6">
-          <img id="g-img" src="images/yogurt.png" class="img-fluid rounded" />
-        </div>
-        <div class="col-md-6">
-          <h2 class="yogurt mt-3">Yogurt App</h2>
-          <p class="gP">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
+        <span class="about">About me</span><br /><br />
+        <div class="col-sm-6">
+          <p id="about-me" class="pt-5 pb-5 mx-5">
+            Welcome to my world of curiosity, creation, and code. I'm someone
+            who's worn many professional hats over the years, driven by an
+            insatiable curiosity about the world and a deep appreciation for
+            life's beauty. My journey has been a winding one, but it has
+            ultimately led me to the realm of development, where I've found my
+            true home. From a young age, I've always been an imaginative person.
+            My mind is a canvas where I paint intricate fairytales and dream of
+            endless possibilities. This vivid imagination has made my life an
+            enchanting experience, and it continues to shape the way I approach
+            the world and my work. In my code, I strive to capture the magic of
+            life and infuse it into every project I undertake. My passion for
+            development is a reflection of my love for life and its boundless
+            beauty. I believe that technology can be a medium to express the
+            wonder and creativity that surround us daily. With each new project,
+            I aim to embody the essence of life, seeking to create digital
+            experiences that resonate with the human spirit.
           </p>
-          <div class="mt-5">
-            <a id="g-link" href="#" class="primary-link py-3 px-4 shadow border"
-              >Launch Yogurt App</a
-            >
-          </div>
+        </div>
+        <div class="col-sm-6">
+          <p id="about-me" class="pt-5 pb-5 mx-5">
+            Adaptability is one of my core strengths. Just as life itself is
+            constantly evolving, I'm adept at staying ahead in the ever-changing
+            landscape of technology. Whether it's learning a new programming
+            language or embracing innovative design trends, I thrive on the
+            challenges that come my way. A sharp eye for detail is another
+            hallmark of my work. Just as life's beauty resides in its smallest
+            moments, I ensure that every line of code, every pixel of design,
+            and every user interaction is meticulously crafted. It's in these
+            details that the magic of my projects truly comes to life. Thank you
+            for joining me on this enchanting journey through my portfolio. As a
+            developer, I'm excited to share with you the many facets of life
+            that inspire me and the digital creations that arise from that
+            inspiration. Together, let's explore the endless possibilities that
+            technology offers, and let's create a more beautiful, imaginative,
+            and adaptive world for all.
+          </p>
         </div>
       </div>
     </div>
