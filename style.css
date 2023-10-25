@@ -98,8 +98,6 @@ h3,h2 {
 
 }
 
-
-
 #portrait-text{
     display: flex;
     flex-direction: column;
@@ -130,7 +128,7 @@ font-size: 15px;
     margin-top: 30px;
     animation-name: about;
     animation-iteration-count: infinite;
-    animation-duration: 10s;
+    animation-duration: 20s;
     transition: all ease-in-out;
 
 
@@ -214,3 +212,50 @@ font-size: 15px;
     padding-right: 50px;
 }
 
+/*In dev*/
+@media (max-width:960px) {
+    #pro-img{
+        margin: 0;
+        
+    }
+
+
+
+}
+.in-h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Boska', serif;
+    font-size: 50px;
+
+}
+
+.in-pro-des{
+font-family: 'Boska', serif;
+    ;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#in-p{
+    font-weight: bold;
+    line-height: 1.5;
+    
+}
+
+.pro-con{
+    background-color: rgb(255, 255, 255, 0.7);
+    padding-bottom: 50px;
+}
+
+.pro-link{
+    font-size: 15px;
+    background-image: linear-gradient(to right, #ED9190, #4e7ba7, #ED9190) ;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+    
+}

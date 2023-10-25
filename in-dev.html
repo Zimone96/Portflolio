@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Beautifull open source projects coded by ||Zimoné"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zimoné's coding Porfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=zodiak@400&f[]=chillax@400&f[]=stardom@400&f[]=boska@400,300&f[]=fira-sans@900&f[]=poppins@1&f[]=cabinet-grotesk@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <nav
+      id="navigation"
+      class="navbar navbar-expand-lg navbar-dark"
+      style="
+        background-image: linear-gradient(to right, #ed9190, #4e7ba7, #ed9190);
+      "
+    >
+      <div class="container-fluid justify-content-between">
+        <a
+          style="font-size: 25px; font-family: 'Zodiak', serif"
+          class="navbar-brand me-5 pe-5"
+          href="#"
+          >Zimoné</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link mx-3" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active mx-3"
+                aria-current="page"
+                href="in-dev.html"
+                >In Dev</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#about-m">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="about.html#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      src="Images/mylivewallpapers-com-Cherry-Blossom-Lake.mp4"
+      type="video/mp4"
+      id="about-vid"
+    ></video>
+    <h2 class="in-h2">Projects</h2>
+    <div class="container pro-con">
+      <div class="row">
+        <div class="col-sm-3">
+          <p class="mt-5" id="in-p">
+            <span class="in-pro-des">Weather App</span><br /><br />
+            Fully functioning weather app with integrated weather Api, this
+            weather app alows the user to search for their city and recieving
+            accurate weather prediction for thr current day as well as a 5 day
+            forecast.
+          </p>
+          <p id="in-p">
+            <span class="in-pro-des">Languages Used</span> <br />
+            JS5, CSS3, HTML5 (Hosted on Netlify).
+          </p>
+          <br />
+          <a
+            class="pro-link"
+            href="https://boisterous-florentine-0521bd.netlify.app/"
+            target="_blank"
+            >Launch Weather App</a
+          >
+        </div>
+        <div class="col-sm-3">
+          <img
+            id="pro-img"
+            class="img-fluid"
+            style="height: 200px; margin-top: 135px; border-radius: 10px"
+            src="Images/Screenshot 2023-10-25 231622.png"
+          />
+        </div>
+        <div class="col-sm-3">
+          <img
+            id="pro-img"
+            class="img-fluid"
+            style="margin-top: 135px; border-radius: 10px"
+            src="Images/Screenshot 2023-10-25 233732.png"
+          />
+        </div>
+
+        <div class="col-sm-3">
+          <p id="in-p" class="mt-5 mb-5 pb-2">
+            <span class="in-pro-des">Recipe Landing Page</span><br /><br />
+            Simple demo of a recipe landing page, featuring three of my most
+            loved dishes. Bootsrap and Css utilities were the game changers when
+            this was in development.
+          </p>
+          <p id="in-p">
+            <span class="in-pro-des">Languages Used</span> <br />
+            CSS3, HTML5 (Hosted on Netlify).
+          </p>
+          <br />
+          <a
+            class="pro-link"
+            href="https://flourishing-pixie-a9792d.netlify.app/"
+            >Launch Sakura Haus</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
