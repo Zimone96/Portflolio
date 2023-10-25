@@ -6,7 +6,7 @@
 @media (max-width:960px){
 
     #portrait-text{
-        align-items: center;
+        align-items: left;
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -17,6 +17,10 @@
         font-size: 30px;
         text-align: center;
         padding-top: 20px;
+    }
+
+    h1{
+     font-size: 96px;
     }
 
     
@@ -33,13 +37,14 @@ h3 {
 
 }
 
-p,ul{
-    font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
-            Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;}
+p{
+    font-family: 'Cabinet Grotesk', sans-serif;
+        font-size: 15px;}
+            
 
 h1 {
-    font-size: 90px;
-    font-family: 'Zodiak', serif;
+    font-size: 120px;
+    font-family: 'Boska', serif;
     text-shadow:
             0 0 7px #fff,
             0 0 10px #fff,
@@ -54,7 +59,7 @@ h1 {
 
 h3,h2 {
     font-size: 24px;
-    font-family: serif;
+    font-family: 'Cabinet Grotesk', sans-serif;
     font-weight: bolder;
     
 }
@@ -94,26 +99,15 @@ h3,h2 {
 }
 
 
-.homepage-link {
-    color: var(--primary-color);
-    text-align: center;
-    display: block;
-}
 
-
-.email-link {
+#portrait-text{
     display: flex;
+    flex-direction: column;
+    height: 800px;
     justify-content: center;
-    color: var(--primary-color);
-    font-size: 28px;
-    text-decoration: none;
+
+
 }
-
-.email-link:hover {
-    text-decoration: underline;
-}
-
-
 
 #about-me {
     text-align: left;
@@ -124,12 +118,12 @@ h3,h2 {
 
 ul{
 list-style-type: none;
+font-size: 15px;
 }
 
 .about{
     font-size: 70px;
-    font-family: 'Zodiak',
-        serif;
+    font-family: 'Boska', serif;
         font-weight: bold;
     display: flex;
     justify-content: center;
@@ -166,13 +160,15 @@ list-style-type: none;
 }
 
 
-#portrait-text{
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    justify-content: flex-end;
 
+
+#about-me{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
 }
+
 
 
 
@@ -195,7 +191,7 @@ list-style-type: none;
 
 
 #about-container{
-    background-color: rgb(255, 255, 255,0.7);
+    background: black;
     width: 100%;
     height: 100%;
     
@@ -217,3 +213,4 @@ list-style-type: none;
     padding-left: 50px;
     padding-right: 50px;
 }
+
