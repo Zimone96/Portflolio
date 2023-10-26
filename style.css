@@ -37,7 +37,27 @@
         text-align: center;
         padding-top: 20px;
     }
+    
+@media (max-width:960px) {
+    #pro-img{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
 
+        
+    }
+
+   div .in-pro-des{
+        padding: 0;
+        margin: 0;
+    }
+ 
+.reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+ }
+
+}
   
 
    
@@ -228,15 +248,7 @@ font-size: 15px;
 }
 
 /*In dev*/
-@media (max-width:960px) {
-    #pro-img{
-        margin: 0;
-        
-    }
 
-
-
-}
 .in-h2{
     text-align: center;
     margin-top: 50px;
@@ -270,7 +282,11 @@ font-family: 'Boska', serif;
     background-image: linear-gradient(to right, #ED9190, #4e7ba7, #ED9190) ;
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     border-radius: 15px;
+display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin:  0 60px 0 60px;
     
 }
