@@ -255,7 +255,7 @@ font-size: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
     font-family: 'Boska', serif;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
 
 }
@@ -320,7 +320,7 @@ li{
 
 .h3-in{
 font-family: 'Boska', serif;
-font-size: 28px;
+font-size: 35px;
 margin-top: 30px;
 animation-name: projects;
     animation-iteration-count: infinite;
