@@ -318,9 +318,9 @@ li{
     font-family: 'Cabinet Grotesk', sans-serif;
 }
 
-h3{
+.h3-in{
 font-family: 'Boska', serif;
-font-size: 35px;
+font-size: 28px;
 margin-top: 30px;
 animation-name: projects;
     animation-iteration-count: infinite;
