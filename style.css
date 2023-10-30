@@ -293,9 +293,8 @@ font-family: 'Boska', serif;
     font-size: 15px;
     
     color: white;
-    text-decoration: none;
-    
-    text-align: center;
+   display: block;
+   margin: 0 auto;
    
     
 }
@@ -308,7 +307,7 @@ font-family: 'Boska', serif;
 }
 
 .will-be{
-    background-color: white;
+    background-color: black;
     padding: 20px;
 }
 
@@ -316,17 +315,9 @@ li{
     font-size: 20px;
     line-height: 1;
     font-family: 'Cabinet Grotesk', sans-serif;
+    color: white;
 }
 
-.h3-in{
-font-family: 'Boska', serif;
-font-size: 35px;
-margin-top: 30px;
-animation-name: projects;
-    animation-iteration-count: infinite;
-    animation-duration: 20s;
-    transition: all ease-in-out;
-}
 
 ul{
     text-align: left;
@@ -337,26 +328,6 @@ ul p{
     font-weight: bold;
     margin-top: 35px;
     font-family: 'Boska', serif;
+    color: white;
 }
 
-@keyframes projects {
-    0% {
-        color: white;
-
-    }
-
-    25% {
-        color: #ED9190;
-
-    }
-
-    50% {
-        color: white;
-
-    }
-
-    100% {
-        color: #4e7ba7;
-
-    }
-}
