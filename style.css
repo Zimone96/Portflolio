@@ -262,7 +262,7 @@ font-size: 15px;
 .in-pro-des{
 font-family: 'Boska', serif;
     
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     animation-name: about;
         animation-iteration-count: infinite;
@@ -386,13 +386,19 @@ i{
 
 
 
-.footer {
-    background-color: white; 
-    font-weight: bolder;
+ .footer {
+    background-image: linear-gradient(to right, #ED9190, #4e7ba7, #ED9190); 
+   
     font-size: 25px;
    
 }
 
+.nav-item{
+    color: white;
+}
 
 
+.footer a{
+    color: white;
+}
 
